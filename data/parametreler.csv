@@ -1,0 +1,7 @@
+,model,best_score,best_params
+0,svm,0.8758643216080403,"{'C': 1, 'class_weight': {1: 4}, 'coef0': 0.501, 'degree': 7, 'gamma': 'auto', 'kernel': 'poly', 'max_iter': 1000, 'probability': True}"
+1,random_forest,0.8598442211055277,"{'bootstrap': False, 'max_depth': 4, 'max_features': 'auto', 'min_samples_leaf': 1, 'min_samples_split': 2, 'n_estimators': 25}"
+2,logistic_regression,0.8858693467336684,"{'C': 0.00026366508987303583, 'class_weight': {1: 4}, 'max_iter': 100, 'multi_class': 'multinomial', 'penalty': 'l2', 'random_state': 42, 'solver': 'sag'}"
+3,logistic_regression2,0.8388391959798994,"{'C': 0.0001, 'class_weight': {1: 5}, 'max_iter': 100, 'multi_class': 'ovr', 'penalty': 'l1', 'random_state': 42, 'solver': 'liblinear'}"
+4,GBM,0.871859296482412,"{'learning_rate': 1, 'max_depth': 5, 'n_estimators': 150, 'random_state': 42}"
+5,DecisionTre,0.8498442211055275,"{'criterion': 'entropy', 'max_depth': 3, 'max_features': 'log2', 'min_samples_split': 6}"
